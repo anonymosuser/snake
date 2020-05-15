@@ -1,0 +1,41 @@
+div.snake-body {
+  background-color: pink;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+div.snake-head {
+  top: 10px;
+  left: 40px;
+  background-color: greenyellow;
+  z-index: 2;
+}
+
+div.snake-tail {
+  top: 10px;
+  left: 30px;
+}
+
+div.border {
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+div.apple {
+  background-color: rgb(255, 0, 0);
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+.score {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
